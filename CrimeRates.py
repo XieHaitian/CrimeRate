@@ -18,7 +18,7 @@ from ggplot import *
 # In[3]:
 
 Data = pd.read_table(
-    "/Users/haitianxie/Documents/Datasets/LinearRegressionModels/crime_rates.txt",
+    "crime_rates.txt",
      delim_whitespace = True)
 Data.head()
 
